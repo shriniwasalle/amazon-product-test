@@ -80,4 +80,5 @@ Open the Allure report:
 ```plaintext
 npm run test-open-report
 ```
-<img width="954" alt="image" src="https://github.com/user-attachments/assets/5c3733fb-6794-4150-9663-23a79499b754">
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/c3f1dc23-3634-44f9-85c8-5ff6e2b7b11e">
+
