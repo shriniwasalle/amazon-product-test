@@ -2,7 +2,7 @@ import { test, expect } from "../src/fixtures/fixtures.ts";
 import { AppleStorePage } from "../src/pages/apple.store.page.ts";
 import { AppleWatchesPage } from "../src/pages/apple.watches.page.ts";
 import { ProductPage } from "../src/pages/product.page.ts";
-import { InputData } from "./test-data/testData.ts";
+import { InputData } from "../resources/testData.ts";
 
 test.beforeEach(async ({ page }) => {
   await page.goto("/");

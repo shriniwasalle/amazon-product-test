@@ -7,7 +7,8 @@
     "test": "npx playwright test --headed --project=chromium",
     "test-tags": "npx playwright test --headed --project=chromium --grep @regression",
     "test-generate-report": "allure generate ./allure-results -o ./allure-report --clean",
-    "test-open-report": "allure open ./allure-report"
+    "test-open-report": "allure open ./allure-report",
+    "test-api": "npx playwright test public-api-test.spec.ts"
   },
   "keywords": [],
   "author": "",

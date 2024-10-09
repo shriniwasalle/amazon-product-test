@@ -1,0 +1,11 @@
+{
+  "firstname": "Shriniwas",
+  "lastname": "Alle",
+  "totalprice": 1000,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2024-10-09",
+    "checkout": "2024-10-10"
+  },
+  "additionalneeds": "Breakfast"
+}
