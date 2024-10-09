@@ -48,7 +48,7 @@ PLAYWRIGHT-TEST
 ## Installation
 
 ```plaintext
-git clone https://github.com/shriniwasalle/playwright-test.git
+git clone https://github.com/shriniwasalle/amazon-product-test.git
 ```
 
 ```plaintext
