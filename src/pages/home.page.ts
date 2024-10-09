@@ -11,6 +11,12 @@ export class HomePage extends BaseClass {
     super(page);
   }
 
+  async selectCategoryFromDropdown(category: string) {
+    await this.page
+      .getByLabel("Select the department you want to search in")
+      .selectOption({ value: `search-alias=${category.toLowerCase()}` });
+  }
+
   async searchProduct(productName: string): Promise<void> {
     await this.enterText(this.elements.txtSearchBox, productName);
   }

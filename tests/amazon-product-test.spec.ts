@@ -16,6 +16,7 @@ test("Amazon Products Test @regression", async ({
   appleWatchesPage,
 }) => {
   await test.step("Search First Product", async () => {
+    await homePage.selectCategoryFromDropdown(InputData.categoryName);
     await homePage.searchProduct(InputData.productName);
     const searchResults = await homePage.getSearchResults();
     searchResults.forEach((result) =>

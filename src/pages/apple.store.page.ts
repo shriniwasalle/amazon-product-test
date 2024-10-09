@@ -7,10 +7,12 @@ export class AppleStorePage extends BaseClass {
   }
 
   async clickOnNavBarItem(navItem: string) {
+    await this.page.waitForLoadState();
     await this.clickOnElementByRole("button", navItem);
   }
 
   async selectProductFromDropdown(productName: string) {
+    await this.page.waitForLoadState();
     await this.clickOnElementByText(productName);
   }
 }
